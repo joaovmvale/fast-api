@@ -1,11 +1,12 @@
 # JobBoard-Fastapi 
 > A job board app using fastapi
 
-## Udemy Course Link
-[Udemy FastAPI Course](https://www.udemy.com/course/fastapi-course/?referralCode=866F5B710822DE67352F)
-
-
-![](backend/static/images/lite.gif)
+## Description
+```
+This repository contains some of my fast-api study, I'm expanding my knowledge around 
+API's and after learning Django and DRF I think it's time to learn other frameworks to 
+compare them and improve my knowledge.
+```
 
 ## Technology Stack:
 * FastAPI
@@ -14,21 +15,7 @@
 * Sqlalchemy
 * Postgres
 
-
-## How to start the app ?
-```
-git clone https://github.com/nofoobar/JobBoard-Fastapi.git
-cd .\JobBoard-Fastapi\
-python -m venv env   #create a virtual environment
-.\env\Scripts\activate  #activate your virtual environment
-cd .\backend\
-pip install -r .\requirements.txt
-uvicorn main:app --reload     #start server
-visit  127.0.0.1:8000/
-```
-
-Features:
- - ✔️ Course [Udemy FastAPI Course](https://www.udemy.com/course/fastapi-course/?referralCode=866F5B710822DE67352F)
+## Features:
  - ✔️ Serving Template
  - ✔️ Static Files in Development
  - ✔️ Connecting to Database
